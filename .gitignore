@@ -1,54 +1,50 @@
-# Prerequisites
-*.d
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.log
+*.tlog/
+*.lastbuildstate
 
-# Object files
-*.o
-*.ko
+# =========================
+# Build outputs
+# =========================
+Debug/
+Release/
+x64/Debug/
+x64/Release/
 *.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
 *.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
 *.pdb
+*.idb
+*.ipdb
+*.iobj
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# =========================
+# CUDA
+# =========================
+*.cubin
+*.ptx
+*.fatbin
+*.nvvp
+*.sublime-workspace
+*.sublime-project
 
-/build
+# =========================
+# Misc
+# =========================
+*.exe
+*.dll
+*.lib
+*.so
+*.a
+*.out
+*.o
+*.log
